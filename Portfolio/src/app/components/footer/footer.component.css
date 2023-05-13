@@ -1,0 +1,17 @@
+.row{
+    background-color: #dec8fb;
+    min-height: 100px;
+}
+
+footer{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bolder;
+}

@@ -1,0 +1,25 @@
+.proyectosTitulo h1{
+    color: #563383;
+    text-align: center;
+    padding-top: 2%;
+}
+.card-group{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+.card{
+    border-color: #563383;
+    padding: 0.5%;
+    background-color:white;
+    box-shadow: 5px 5px 5px grey;
+}
+.card h5{
+    font-weight: bolder;
+    font-size: x-large;
+    color: #563383;
+}
+.card p{
+    font-weight: bold;
+}

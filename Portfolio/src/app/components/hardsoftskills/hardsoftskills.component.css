@@ -1,0 +1,21 @@
+.title{
+    color: #563383;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+}
+@media (min-width:576px){
+    .title h1{
+        font-size: 2vw;
+    }
+    .row{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width:575px){
+    .title h1{
+        font-size: 8vw;
+    }
+}
