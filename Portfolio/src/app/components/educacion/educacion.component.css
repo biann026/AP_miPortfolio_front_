@@ -4,68 +4,45 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-.educacion h1{
+
+.educacion h1 {
     color: #563383;
 }
-.instituciones h1{
-    font-weight: bolder;
-}
-.instituciones h2{
-    font-weight: bold;
-    font-style: italic;
-    display: inline;
-}
-.instituciones h3{
-    font-weight: bold;
-    font-style: italic;
-    display: inline;
-}
-.instituciones h6{
-    display: inline;
-    font-weight: bold ;
-}
-.instituciones p{
-    font-weight: bold;
+
+.educ {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-@media (min-width:576px){
-    .educacion h1{
+.educ h5 {
+    font-weight: bolder;
+    color: #563383;
+
+}
+
+.add button{
+    font-weight: bolder;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.table td{
+font-weight: bolder;
+padding-top: 2%;
+}
+
+
+
+@media (min-width:576px) {
+    .educacion h1 {
         font-size: 2vw;
     }
-    .instituciones h1{
-        font-size: 1.5vw;
-    }
-    .instituciones h2{
-        font-size: 0.8vw;
-    }
-    .instituciones h3{
-        font-size: 0.8vw;
-    }
-    .instituciones h6{
-        font-size: 0.8vw;
-    }
-    .instituciones p{
-        font-size: 1vw;
-    }
 }
 
-@media (max-width:575px){
-    .educacion h1{
-        font-size: 8vw;
-    }
-    .instituciones h1{
-        font-size: 6vw;
-    }
-    .instituciones h2{
-        font-size: 2.5vw;
-    }
-    .instituciones h3{
-        font-size: 2.5vw;
-    }
-    .instituciones h6{
-        font-size: 2.5vw;
-    }
-    .instituciones p{
-        font-size: 4vw;
+@media (max-width:575px) {
+    .educacion h1 {
+        font-size: 8vw,
     }
 }
