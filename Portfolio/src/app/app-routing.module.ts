@@ -12,15 +12,15 @@ import { EditAcercaDeComponent } from './components/sobre-mi/edit-acerca-de.comp
 
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
-  {path:'login', component:LoginComponent},
-  {path:'nuevaexp', component:NewExperienciaComponent},
-  {path:'editexp/:id', component:EditExperienciaComponent},
-  {path:'nuevaedu', component:NeweducacionComponent},
-  {path:'editedu/:id', component:EditeducacionComponent},
-  {path:'newskill', component: NewSkillComponent},
-  {path:'editskill/:id', component: EditSkillComponent},
-  {path:'editacercade/:id', component: EditAcercaDeComponent},
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'nuevaexp', component: NewExperienciaComponent },
+  { path: 'editexp/:id', component: EditExperienciaComponent },
+  { path: 'nuevaedu', component: NeweducacionComponent },
+  { path: 'editedu/:id', component: EditeducacionComponent },
+  { path: 'newskill', component: NewSkillComponent },
+  { path: 'editskill/:id', component: EditSkillComponent },
+  { path: 'editacercade/:id', component: EditAcercaDeComponent },
 ];
 
 @NgModule({

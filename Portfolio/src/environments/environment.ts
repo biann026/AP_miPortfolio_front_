@@ -8,6 +8,4 @@ export const environment = {
     authDomain: 'frontendpbp-b5db8.firebaseapp.com',
     messagingSenderId: '921287123010',
   },
-    production: true,
-    URL: 'https://backendpbp.onrender.com/'
-};
+    production:true,};

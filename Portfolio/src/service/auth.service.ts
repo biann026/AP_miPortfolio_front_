@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = environment.URL + 'auth/';
+  authURL = 'https://backendpbp.onrender.com/auth/';
   constructor(private httpClient: HttpClient) { }
 
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{

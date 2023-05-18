@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = environment.URL + 'explab/'  
+  expURL = 'https://backendpbp.onrender.com/explab/'  
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Experiencia[]>{

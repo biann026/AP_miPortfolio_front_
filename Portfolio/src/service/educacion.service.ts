@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = environment.URL + 'educacion/'
+  URL = 'https://backendpbp.onrender.com/educacion/'
 
   constructor(private httpClient : HttpClient) { }
 
