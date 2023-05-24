@@ -8,12 +8,15 @@ export class ImageService {
   url: string = "";
   constructor(private storage: Storage,) { }
 
-  public uploadImage($event:any, name: string){
-    const file = $event.target.files[0]
-    const imgref = ref(this.storage, 'imagen/'+ name)
-    uploadBytes(imgref,file)
-    .then(response => {this.getImages()})
-    .catch(error => console.log(error))
+  public uploadImage($event: any, name: string) {
+    const file = $event.target.files[0];
+    const imgref = ref(this.storage, 'imagen/' + name);
+    uploadBytes(imgref, file)
+      .then(response => {
+        console.log(response);
+        this.getImages();
+      })
+      .catch(error => console.log(error));
   }
 
   getImages(){

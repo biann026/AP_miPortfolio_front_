@@ -3,14 +3,14 @@
             <div>
             <img src="{{persona.img}}" clas="img-fluid" id="profilePhoto">
             <h1 id="nombre">{{persona.nombre}} {{persona.apellido}}</h1>
-            <p>{{persona.titulo}}</p>
+            <p id="titulo">{{persona.titulo}}</p>
             </div>
         </div>
         <div class="about">
         <h1>Sobre mi</h1>
         <p>{{persona.descripcion}}</p>
         </div>
-        <button type="button" class="btn" routerLink="edit/acercade/1" *ngIf="isLogged"><svg
+        <button type="button" class="btn" routerLink="editacercade/1" *ngIf="isLogged"><svg
             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-pencil-square" viewBox="0 0 16 16">
             <path
