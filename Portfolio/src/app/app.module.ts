@@ -28,7 +28,8 @@ import { EditAcercaDeComponent } from './components/sobre-mi/edit-acerca-de.comp
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-
+import { EditProyectsComponent } from './components/proyects/edit-proyects.component';
+import { NewProyectosComponent } from './components/proyects/new-proyectos.component';
 
 
 @NgModule({
@@ -51,12 +52,16 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     NewSkillComponent,
     EditSkillComponent,
     EditAcercaDeComponent,
+    EditProyectsComponent,
+    NewProyectosComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({}),
+    NgCircleProgressModule.forRoot({
+      
+    }),
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,

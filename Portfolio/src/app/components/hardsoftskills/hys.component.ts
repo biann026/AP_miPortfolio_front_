@@ -43,4 +43,17 @@ export class HysComponent implements OnInit {
       });
     }
   }
+
+  update(id: number, newData: any) {
+    if (id !== undefined && newData) {
+      this.skillS.update(id, newData).subscribe({
+        next: data => {
+          this.cargarSkills();
+        },
+        error: err => {
+          alert("No se pudo actualizar la skill");
+        }
+      });
+    }
+  }
 }
